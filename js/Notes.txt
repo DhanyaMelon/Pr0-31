@@ -1,0 +1,11 @@
+function collide(body,sprite) {
+  if(body != null) {
+    var d= dist(stones.position.x, stones.position.y, zombie.position.x, zombie.position.y); 
+    if(d<= 80){
+      return true;
+    }
+    else{
+      return false;
+    }
+  }
+}
